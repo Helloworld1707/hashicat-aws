@@ -55,6 +55,6 @@ module "s3_bucket" {
   restrict_public_buckets = "${var.s3_bucket_restrict_public_buckets}"
   server_side_encryption_configuration = "${var.s3_bucket_server_side_encryption_configuration}"
   tags = "${var.s3_bucket_tags}"
-  versioning = "${var.s3_bucket_versioning}"
-  website = "${var.s3_bucket_website}"
+  versioning = "false"
+  website = "false"
 }
