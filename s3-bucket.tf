@@ -22,8 +22,8 @@ variable "s3_bucket_request_payer" {}
 variable "s3_bucket_restrict_public_buckets" {}
 variable "s3_bucket_server_side_encryption_configuration" {}
 variable "s3_bucket_tags" {}
-variable "s3_bucket_versioning" {}
-variable "s3_bucket_website" {}
+//variable "s3_bucket_versioning" {}
+//variable "s3_bucket_website" {}
 
 //--------------------------------------------------------------------
 // Modules
