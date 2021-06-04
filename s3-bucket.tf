@@ -9,7 +9,7 @@ module "s3_bucket" {
   version = "2.2.0"
 
   
-  bucket = "Gaurav"
+  bucket = "Gaurav1111xxxxx11111"
   bucket_prefix = "thiyagu-jayaraju"
   
 }
